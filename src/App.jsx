@@ -1,12 +1,15 @@
-import "./App.css";
-import { pokemons } from "./data/pokemon.js"
-import { Pokemon } from "./screens/Pokemon"
+import HelloWorld from "./screens/HelloWorld"
+import {Button} from "./components/Button"
 
 function App() {
 
   return (
-    <Pokemon />
-  );
+    <>
+      <HelloWorld />
+      <Button />
+    </>
+  )
+
 }
 
-export default App;
+export default App

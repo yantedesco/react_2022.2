@@ -1,11 +1,13 @@
 export const Button = () => {
-  const estiloBotao = {
-    backgroundColor: 'red',
-    padding: '4px 12px',
-    fontSize: 12
-  }
+const estilo = {
+        color: "white",
+        backgroundColor: "red",
+        borderRadius: "10px",
+        height: "25px",
+        width: "50px"
+      }
 
-  return (
-    <button style={estiloBotao} onClick={() => null}>Botão</button>
-  )
+    return (
+        <button style={estilo} onClick={() => null}>Botão</button>
+    )
 }
