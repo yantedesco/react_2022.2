@@ -5,8 +5,7 @@ export const Container = (props) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: "column",
-        backgroundColor: "green"
+        flexDirection: "column"
       }}
     >
       {props.children}

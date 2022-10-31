@@ -6,7 +6,7 @@ export const Button = (props) => {
         padding: props.padding,
         fontSize: props.fontSize
       }}
-      onClick={() => null}
+      onClick={props.onClick}
     >
       {props.name}
     </button>
