@@ -1,11 +1,14 @@
-export const Button = () => {
-  const estiloBotao = {
-    backgroundColor: 'red',
-    padding: '4px 12px',
-    fontSize: 12
-  }
-
+export const Button = (props) => {
   return (
-    <button style={estiloBotao} onClick={() => null}>Botão</button>
-  )
-}
+    <button
+      style={{
+        backgroundColor: props.backgroundColor,
+        padding: props.padding,
+        fontSize: props.fontSize
+      }}
+      onClick={() => null}
+    >
+      {props.name}
+    </button>
+  );
+};
