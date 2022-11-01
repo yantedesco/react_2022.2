@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Button } from "../components/Button.jsx";
-import { Container } from "../components/Container.jsx";
+import { Button } from "../../components/Button.jsx";
+import { Container } from "../../components/Container.jsx";
+import { Saudacao } from "./styles.js";
 
 export const Pokemon = () => {
   const [contador, setContador] = useState(0);
@@ -9,7 +10,7 @@ export const Pokemon = () => {
   return (
     <Container>
       <h1>{contador}</h1>
-      <h1>Bem vindo, {nome}</h1>
+      <Saudacao>Bem vindo, {nome}</Saudacao>
       {/* <ul>
         {pokemons.map((pokemon) => {
           return <li key={pokemon.id}>{pokemon.name.english}</li>;
