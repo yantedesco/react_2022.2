@@ -26,7 +26,7 @@ export const Pokemon = () => {
           })
         }
         backgroundColor="white"
-        fontSize={40}
+        fontSize={100}
         padding="10px"
         name="Mudar nome"
       />
@@ -40,7 +40,7 @@ export const Pokemon = () => {
       <Button
         onClick={() => setContador((prev) => prev - 1)}
         backgroundColor="red"
-        fontSize={40}
+        fontSize={80}
         padding="10px"
         name="-"
       />
