@@ -1,8 +1,8 @@
 import "./App.css";
-import { Pokemon } from "./screens/Pokemon";
+import { Home } from "./screens/Home";
 
 function App() {
-  return <Pokemon />;
+  return <Home />;
 }
 
 export default App;
